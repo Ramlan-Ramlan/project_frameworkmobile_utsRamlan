@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Pencatat Pengeluaran (Chrome - Persistent Data)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "chrome",
+        "--web-browser-flag=--user-data-dir=C:/Users/acer/.flutter_chrome_user_data"
+      ]
+    },
+    {
+      "name": "Pencatat Pengeluaran (Edge - Persistent Data)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "edge",
+        "--web-browser-flag=--user-data-dir=C:/Users/acer/.flutter_edge_user_data"
+      ]
+    }
+  ]
+}
+
